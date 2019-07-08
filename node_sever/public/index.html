@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>  
+
+  <script src="/js/jquery.js"></script>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Hydroponics</title>
+  </head>
+  <body style = "height:100%">
+
+		<nav class="navbar navbar-expand-sm bg-success navbar-dark">
+		  <a class="navbar-brand" href="#">Hydroponics</a>
+		   <span class="navbar-toggler-icon"></span>
+		  </button>
+		</nav>
+
+	<div class="container" style="margin-top:30px">
+
+    <div class="col-sm-8">
+      <h2>Status</h2>
+	<div id  ="status-div" style = "background-color: grey; color:white; border-radius: 5px; padding: 10px; margin-bottom: 20px;">
+      			<p id  = "temptag">Temperature:</p>
+			<p id = "humiditytag">Humidity:</p>
+			<p id = "lightstag">Lights:</p>
+			<p id = "fantag" >Fan:</p>
+			<p id = "lightstimertag">Lights Timer:</p>
+			<p id = "fantimertag">Fan Timer:</p>
+	</div>
+      <h2>Control Panel</h2>
+
+			<div style = "padding-bottom: 20px;">
+			
+				<p>Lights: </p>
+				<button style = "width: 100px;" class="btn btn-success" id="togglelightson">Lights On</button>
+                                <button style = "width: 100px;" class="btn btn-danger" id="togglelightsoff">Lights Off</button>
+				
+			</div>
+
+			<div style = "padding-bottom: 20px;">
+                                <p>Fan: </p>
+                                <button style = "width: 100px;" class="btn btn-success"id="togglefanon">Fan On</button>
+                                <button style = "width: 100px;"class="btn btn-danger" id="togglefanoff">Fan Off</button>
+
+                        </div>
+
+			<div style = "padding-bottom: 20px;">
+                                <p>Lights Timer: </p>
+				On at <input type="text" id="txtlightstimeron" style = "margin-bottom: 15px; width: 50px;">
+  				Off at <input type="text" id="txtlightstimeroff" style = "margin-bottom: 15px; width: 50px;">
+                                <button style = "width: 50px;" class="btn btn-success"id="togglelightstimeron">On</button>
+                                <button style = "width: 50px;"class="btn btn-danger" id="togglelightstimeroff">Off</button>
+
+                        </div>
+
+			<div style = "padding-bottom: 20px;">
+                                <p>Fan Timer: </p>
+				On every <input type="text" id="txtfantimeron" style = "margin-bottom: 15px; width: 50px;">        
+                                for <input type="text" id="txtfantimerduration" style = "margin-bottom: 15px; width: 50px;"> mins 
+                                <button style = "width: 50px;" class="btn btn-success"id="togglefantimeron">On</button>
+                                <button style = "width: 50px;"class="btn btn-danger" id="togglefantimeroff">Off</button>
+
+                        </div>
+
+			<div class="col-sm-8">
+			</div>
+    </div>
+
+	</div>
+
+	<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    <p>Hydroponics 2019<p>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/css/bootstrap4-toggle.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/js/bootstrap4-toggle.min.js"></script>
+	</body>
+
+
+
+
+</html>
