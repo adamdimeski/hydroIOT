@@ -8,7 +8,7 @@ Technologies used:
  - Python script using GPIOzero for controlling hardware components
  - NodeJS server usign express to serve a static web page to the client
  - JQuery to create web app on client's web browser
- - Redis is used a messaging system between express server and python script
+ - Redis is used as a messaging system between the express server and the python script
  - Bootstrap to style the web app
  
  Inside hydro directory, hydro1.py is the python script controlling the hardware
@@ -19,3 +19,13 @@ Technologies used:
 These scripts are implements as systemd services on a raspberry pi zero with a wifi dongle.
 
 Work on the project is currently active.
+
+Current Features:
+  - Remote Control of Fan/Lights
+  - Temperature and Humidity Readout
+ 
+Features Coming Soon:
+  - Automatic Control of Fan with respect to temperature and grow guide
+  - Lights Timer
+  - Remote control of fogger devices
+  - Camera View
