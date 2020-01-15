@@ -6,7 +6,7 @@ This project is a control system combined with a web interface to control a hydr
 Technologies used:
  - NGROK for reverse tunneling to address http://hydro.comus.dynu.net
  - Python script using GPIOzero for controlling hardware components
- - NodeJS server usign express to serve a static web page to the client
+ - NodeJS server using express to serve a static web page to the client
  - JQuery to create web app on client's web browser
  - Redis is used as a messaging system between the express server and the python script
  - Bootstrap to style the web app
@@ -29,3 +29,11 @@ Features Coming Soon:
   - Lights Timer
   - Remote control of fogger devices
   - Camera View
+
+Hardware Components:
+  - Raspberry Pi Zero with a USB wifi adaptor
+  - 3v3 Relays
+  - DHT11 Temperature and Humididty Sensor
+  - 12V Computer Fan
+  - Full Spectrum LED Panels
+  - 12V Power Supply
