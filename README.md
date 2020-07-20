@@ -4,7 +4,7 @@ An internet controlled Hydroponics Chamber
 This project is a control system combined with a web interface to control a hydroponics box.
 
 Technologies used:
- - NGROK for reverse tunneling to address http://hydro.comus.dynu.net
+ - NGROK for reverse tunneling to address http://hydro.comus.dynu.net also <a href="https://github.com/adamdimeski/hydroIOT/blob/master/node_sever/public/index.html">http://hydroc.comus.dynu.net</a>
  - Python script using GPIOzero for controlling hardware components
  - NodeJS server using express to serve a static web page to the client
  - JQuery to create web app on client's web browser
