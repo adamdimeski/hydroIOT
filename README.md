@@ -3,6 +3,8 @@ An internet controlled Hydroponics Chamber
 
 This project is a control system combined with a web interface to control a hydroponics box.
 
+The initial objectives of this project are to control lights and fans and use a static method of hydroponics such as the kratky method. Then to move to controlling a more active system using a drip feeder or using fogger devices.
+
 Technologies used:
  - NGROK for reverse tunneling to address <a href="https://htmlpreview.github.io/?https://github.com/adamdimeski/hydroIOT/blob/master/node_sever/public/index.html">hydro.comus.dynu.net</a>
  - Python script using GPIOzero for controlling hardware components
@@ -18,17 +20,9 @@ Technologies used:
   
 These scripts are implements as systemd services on a raspberry pi zero with a wifi dongle.
 
-Work on the project is currently active.
+Work on the project is currently dormant.
 
 Current Features:
-  - Remote Control of Fan/Lights
-  - Temperature and Humidity Readout
- 
-Features Coming Soon:
-  - Automatic Control of Fan with respect to temperature and grow guide
-  - Lights Timer
-  - Remote control of fogger devices
-  - Camera View
 
 Hardware Components:
   - Raspberry Pi Zero with a USB wifi adaptor
